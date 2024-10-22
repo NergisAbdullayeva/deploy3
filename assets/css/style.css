@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.page{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.nav{
+    margin: 30px;
+    font-size: 18px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    color: blue;
+}
+
+.bgskill{
+    background-color: black;
+    width: 1520px;
+    height: 584px;
+}
+
+.aboutskill{
+    color: white;
+}
+.aboutskill p{
+    width: 510px;
+    height: 202px;
+}
+
+button{
+    width: 188px;
+    height: 49px;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.contactbtn {
+    border-radius: 20px;
+    border: 3px solid white;
+    color: white;
+    overflow: hidden;
+    width: 188px;
+    height: 49px;
+}
+.contactbtn a{
+color: white;
+font-size: 16px;
+}
+
+.contactbtn:hover{
+    border: none;
+    overflow: hidden;
+}
+button:hover{
+    border: none;
+    overflow: hidden;
+}
+.card{
+    margin-top: 90px;
+}
+
+.card img{
+    width: 100%;
+    width: 335px;
+    height: 403px;
+    border-radius: 20px;
+}
+.aboutskill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;  
+}
+
+.about_text{
+    margin-top: 90px;
+}
+
+.about_text h2{
+    font-size: 48px;
+}
+
+.about_text p{
+   font-size: 18px;
+   margin-top: 30px;
+}
+
+.circle1{
+    background-color: purple;
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+}
+.circle2{
+    background-color: orange;
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+}
+
+.about_card{
+    position: relative;
+}
+
+.circles{
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+    transform: rotate(-90deg);
+}
+.circle1{
+    position: relative;
+    z-index: 2;
+}
+.circle2{
+    right: 40px;
+    z-index: 1;
+}
+
+.bgwhy{
+    background-color: #8A5CD9;
+    width: 1520px;
+    height: 522px;
+}
+
+.why_text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.why_text h2{
+    font-size: 48px;
+    margin-top: 80px;
+}
+
+.why_text p{
+    font-size: 18px;
+}
+
+.whyus {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 250px 250px 250px 250px;
+    height: 239px;
+    margin-top: 30px;
+    padding: 2px;
+       
+}
+
+.why_us{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.why_us h3{
+    font-size: 70px;
+}
+.why_us h5{
+    font-size: 20px;
+}
+
+
+.whyuss {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .why_uss {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 30px;
+    color: black;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .why_uss img {
+    width: 49px;
+    height: 46px;
+
+  }
+.whyussbg{
+    background-color: #8A5CD9;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+  .why_uss h5 {
+    font-size: 20px;
+  }
+  
+  .why_uss p {
+    font-size: 18px;
+  }
+  
+  .whyus_text h2 {
+    font-size: 48px;
+    margin-top: 60px;
+  }
+
+
+
+  #speakers {
+    padding: 50px 20px;
+  }
+  
+  .container h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .speaker-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .speaker-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .speaker-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .speaker-card h5 {
+    font-size: 18px;
+  }
+  
+  .purple {
+    background-color: #6a4ac9;
+    color: white;
+  }
+  
+  .black {
+    background-color: #000;
+    color: white;
+  }
+  
+  .orange {
+    background-color: #f68c28;
+    color: white;
+  }
+  
+  .speaker-card:nth-child(odd) img {
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .bgfooter1{
+    background-color: black;
+    color: white;
+    width: 1644px;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bgfooter p{
+    font-size: 14px;
+  }
+
+  .bgfooter2{
+    background-color: black;
+    color: white;
+    width: 1644px;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bgfooter2 a{
+    font-size: 14px;
+    color: white;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+
+  @media (max-width: 992px){
+    .page{
+        display: none;
+    }
+  }
+
+  
+  @media (max-width: 756px){
+    .nav{
+        display: none;
+    }
+    .navbar{
+        display: block;
+    }
+  }
